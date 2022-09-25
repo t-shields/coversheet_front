@@ -11,8 +11,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="style.css">
     <style>
         .brtop {
             display:inline-block;
@@ -34,14 +32,14 @@
     </div>
 
     <div class="container">
-        <form action="DownloadController" method="post">
+        <form method="post">
             <h3>Student info</h3>
             <hr>
 
             <div class="form-group">
 
                 <label for="fname">First Name: </label>
-                <input type="text" class="form-control" id="fname" name="fname" value="${cookie.fname.value}">
+                <input type="text" class="form-control" id="fname" name="fname">
 
                 <label for="lname">Last Name: </label>
                 <input type="text" class="form-control" id="lname" name="lname">
